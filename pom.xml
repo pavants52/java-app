@@ -6,7 +6,7 @@
     <artifactId>spring-petclinic</artifactId>
     <version>2.0-SNAPSHOT</version>
 
-    <name>petclinic</name>
+    <name>trail</name>
     <packaging>war</packaging>
 
     <properties>
@@ -287,7 +287,7 @@
         </testResources>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
+             <!--   <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2.1</version> 
                 <configuration>
@@ -298,7 +298,12 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <showWarnings>true</showWarnings>
-                </configuration>
+                </configuration>-->
+		    <dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.6.0</version>
+</dependency>
             </plugin> 
 	
         <!--    <plugin>
