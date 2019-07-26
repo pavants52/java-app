@@ -290,7 +290,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2.1</version> 
-              <!--  <configuration>
+               <configuration>
                     <compilerArguments>
                         <Xlint/>
                     </compilerArguments>
@@ -298,7 +298,7 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <showWarnings>true</showWarnings>
-                </configuration> -->
+                </configuration> 
 		       
             </plugin> 
 	
